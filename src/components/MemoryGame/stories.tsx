@@ -1,9 +1,9 @@
 import { Meta, Story } from '@storybook/react/types-6-0';
-import { Heading, HeadingProps } from '.';
+import { MemoryGame } from '.';
 
 export default {
-  title: 'Heading',
-  component: Heading,
+  title: 'MemoryGame',
+  component: MemoryGame,
   args: {
     children: 'O texto está escuro',
   },
@@ -12,4 +12,4 @@ export default {
   },
 } as Meta;
 
-export const Template: Story<HeadingProps> = (args) => <Heading {...args} />;
+export const Template: Story = (args) => <MemoryGame {...args} />;

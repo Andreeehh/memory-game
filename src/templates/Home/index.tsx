@@ -1,7 +1,7 @@
-import { Heading } from 'components/Heading';
+import { MemoryGame } from 'components/MemoryGame';
 
 function Home() {
-  return <Heading>Example</Heading>;
+  return <MemoryGame></MemoryGame>;
 }
 
 export default Home;
