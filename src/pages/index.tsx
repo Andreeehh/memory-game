@@ -1,5 +1,11 @@
 import Home from 'templates/Home';
 
 export default function Index() {
-  return <Home />;
+  return (
+    <>
+      <title>Memory game</title>
+      <meta name="description" content={`Memory game`} />
+      <Home />
+    </>
+  );
 }
